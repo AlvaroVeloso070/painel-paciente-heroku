@@ -48,7 +48,10 @@ export const LoginForm = () => {
   useEffect(() =>{
 
   (async () =>{
-      const res = await fetch(url);
+      const res = await fetch(url, {headers: {
+        "Content-Type": "application/json",
+        'Access-Control-Allow-Origin': '*'
+    }});
       const data = await res.json();
       setData(data);
     })();
