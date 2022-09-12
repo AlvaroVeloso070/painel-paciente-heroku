@@ -1,0 +1,74 @@
+.profile-content{
+    background-color: #3e3555;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-content{
+    text-shadow: 0px 10px 40px #0000008a;
+    margin-top: 50px;
+    width: 45%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    background-image: url(../assets/profile-data-animate.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.right-content form{
+    margin-top: 50px;
+    min-width: 500px;
+    padding: 20px;
+    background-color: #2f2841;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-editar, .btn-excluir{
+    width: 45%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+}
+
+.btn-excluir{
+    background-color: crimson;
+    cursor: pointer;
+    box-shadow: 0px 5px 40px -12px #7e0000;
+}
+
+.btn-excluir:hover{
+    background-color: #7e0000;
+}
+
+.btn-editar{
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 5px 40px -12px #00ff8052;
+}
+
+.btn-editar:hover{
+    background-color: #00ff8052;
+}
+
+#inline-edit{
+    margin-left: 10px;
+}
+
+.form-edit{
+    min-width: 700px;
+}
+

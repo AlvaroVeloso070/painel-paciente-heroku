@@ -1,0 +1,4 @@
+{
+    "urlPainelPaciente": "https://ufg-painel-paciente-api.herokuapp.com",
+    "urlCadastros": "https://ufg-cadastros-api.herokuapp.com"
+}

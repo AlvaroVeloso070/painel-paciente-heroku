@@ -1,0 +1,95 @@
+.content-table{
+    border-collapse: collapse;
+    margin-top: 50px;
+    color: #fff;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #2f2841;
+    max-height: 600px;
+}
+
+.div-btn-inserir{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+#btn-inserir:hover{
+    background-color: #00ff8052;
+}
+
+.inserir-medico{
+    padding: 10px;
+    border: none;
+    border-radius: 10px; 
+    outline: none;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 5px 40px -12px #00ff8052;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 25%;
+    align-items: center;
+}
+
+.content-table thead tr{
+    background-color: #2f2841 ;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #51466d;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #2f2841;
+}
+
+/* .content-table tbody tr:hover{
+    font-weight: bold;
+    transition: 100ms;
+} */
+
+#id{
+    width: 40px;
+}
+
+#nome, #email{
+    width: 300px;
+}
+#email{
+    text-align: right;
+}
+
+.edit-btn, .delete-btn{
+    width: 30px;
+    height: 25px;
+    padding: 2px 2px;
+    border-radius: 7px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    background-color: #58b489;
+    color: #fff;
+}
+
+.delete-btn{
+    background-color: crimson;
+}
+
+#data_nascimento{
+    text-align: center;
+}
+

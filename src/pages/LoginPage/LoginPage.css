@@ -1,0 +1,37 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-color: #201b2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section{
+  width: 50vw;
+  height: 100vh;
+  background-image: url(../../assets/medicine-animate.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;  
+  background-position: center; 
+  
+}
+
+.left-section > h1{
+  color: #77ffc0;
+  margin-top: 8%;
+  margin-left: 25%;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.right-section{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

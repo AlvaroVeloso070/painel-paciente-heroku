@@ -1,0 +1,8 @@
+.content-list{
+        background-color: #3e3555;
+        width: 100vw;
+        height: calc(100vh - 80px);
+        display: flex;
+        justify-content: center;
+}
+

@@ -1,0 +1,42 @@
+#paciente-dataNascimento, #paciente-dataEntrada{
+    text-align: center;
+}
+
+.form-paciente{
+    display: flex;
+    justify-content: center;
+}
+#form-alterar-paciente{
+    width: 80%;
+    display: flex;
+    
+}
+
+#nome-form{
+    margin-left: 4px;
+}
+
+#nome-form, #cpf-form{
+    width: 96%;
+}
+
+#dataNascimento{
+    width: 20%;
+}
+
+#dataEntrada-form{
+    margin-left: 20px;
+}
+
+#telefone-form, #email-form{
+    width: 96%;
+}
+
+#sintomas-form{
+    width: 105%;
+}
+
+#lado{
+    display: flex;
+    justify-content: center;
+}
